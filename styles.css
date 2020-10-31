@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+}
+
+#date {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+#day {
+  padding-bottom: 20px;
+}
+
+#todo-input {
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+}
+
+#add-button {
+  margin: 5px 20px;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.2rem;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+#add-button:hover {
+  background-color: #b19cd9;
+  cursor: pointer;
+}
+
+li {
+  padding-top: 10px;
+}
+
+#todo-list {
+  text-align: left;
+}
+
+/***** Responsiveness ******/
+@media (min-width: 1101px) {
+  #todo-list {
+    margin-left: 35%;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1100px) {
+  #todo-list {
+    margin-left: 30%;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 899px) {
+  #todo-list {
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 749px) {
+  #todo-list {
+    margin-left: 20%;
+  }
+}
+
+.buttonClass {
+  margin: 5px;
+  margin-left: 50px;
+  padding: 5px 10px 5px 10px;
+  font-size: 1rem;
+  background-color: #8a2be2;
+  color: white;
+  border-radius: 2px;
+  border-width: 0;
+}
+
+.buttonClass:hover {
+  background-color: #b19cd9;
+  cursor: pointer;
+}
