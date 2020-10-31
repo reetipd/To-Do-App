@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* .done span {
+            text-decoration: line-through;
+            color: red
+        } */
+
+        body{
+            background-color:rgb(210, 250, 170);
+        }
+
+        #list{
+            margin-top: 50%px;
+            margin-left: 38%;
+            display: inline-block; 
+            width: 50%;
+        }
+        #todo-input{
+            /* margin-left: 45%; */
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #crossButton{
+            color:crimson;
+            margin-left: 10%;
+            width: 30%;
+            /* background-color: aquamarine; */
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <h1 style="background-color:rgb(158, 245, 71); padding: 2%; text-align:center;">TO-DO APP</h1>
+    
+    <input id="todo-input" placeholder="Enter your work" data-key="123123" style="padding: 10px; margin-left: 40%;"/>
+    <button id='add-button' style="padding: 10px; width: 100px">Add</button>
+    <br>
+    <div id="list">
+        <ol id='todo-list'></ol>
+    </div>
+    <script type="text/javascript" src="script_deena.js"></script>
+
+</body>
+</html>
