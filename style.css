@@ -1,0 +1,89 @@
+body {
+    background-color: #37474f;
+    font-family: monospace;
+    color: white;
+    text-align: center;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #f05454;
+    list-style: none;
+}
+
+
+/* Input Field */
+
+#todo-input {
+    border: 3px solid white;
+    padding: 5px 27px;
+    color: white;
+    background: transparent;
+    margin-bottom: 50px;
+}
+
+
+/* Add button */
+
+#add-button {
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 5px 15px;
+}
+
+#add-button:hover {
+    background-color: #333456;
+    color: white;
+}
+
+
+/* Add button */
+
+
+/* List Items */
+
+li {
+    list-style: none;
+    font-size: x-large;
+    float: left;
+    display: block;
+    clear: both;
+    padding: 5px 0px;
+}
+
+li:hover {
+    cursor: grab;
+}
+
+
+/* List Items */
+
+
+/* CROSS BUTTON */
+
+.cross-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30%;
+    margin-left: 10px;
+    position: fixed;
+    left: 305px;
+}
+
+.cross-button:hover {
+    color: red;
+}
+
+
+/* CROSS BUTTON */
