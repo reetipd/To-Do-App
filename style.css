@@ -1,0 +1,34 @@
+ body {
+    box-sizing: content-box;
+    margin: 0 auto 500px 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    background-position: inherit;
+    background-color: rgb(22, 7, 36);
+}
+h1 {
+	color: #fff;
+	font-size: 3rem;
+	font-weight: 50;
+	text-align: left; 
+	font-family: 'Hind', sans-serif;
+}
+
+#input {
+    margin-left: 60px;
+    float: left;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#button {
+    height: 60px;
+    width: 60px;
+    font-size: 25px;
+    vertical-align: middle;
+
+}
+
